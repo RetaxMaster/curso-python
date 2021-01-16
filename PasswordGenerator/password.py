@@ -3,10 +3,15 @@ import random
 
 def generar_contrasena():
 
-    mayusculas = ["A", "B", "C", "D", "E", "F", "G"]
+    """ mayusculas = ["A", "B", "C", "D", "E", "F", "G"]
     minusculas = ["a", "b", "c", "d", "e", "f", "g"]
     simbolos = ["!", "#", "$", "&", "/", "(", ")"]
-    numeros = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
+    numeros = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"] """
+
+    mayusculas = "ABCDEFG"
+    minusculas = "abcdefg"
+    simbolos = "!#$&/()"
+    numeros = "1234567890"
 
     caracteres = mayusculas + minusculas + simbolos + numeros
 
