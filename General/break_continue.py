@@ -14,14 +14,20 @@ def run():
         if i == 5678:
             break """
 
-    texto = input("Escribe un texto: ")
+    """ texto = input("Escribe un texto: ")
 
     for letra in texto:
 
         if letra == "o":
             break
-        
-        print(letra)
+
+        print(letra) """
+
+    while True:
+        tecla = input("Presiona 0 para salir: ")
+
+        if(tecla == "0"):
+            break
 
 
 if __name__ == "__main__":
