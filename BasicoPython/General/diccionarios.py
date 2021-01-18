@@ -28,6 +28,9 @@ def run():
     for pais, poblacion in poblacion_paises.items():
         print(pais + " tiene " + str(poblacion) + " habitantes")
 
+    
+    poblacion_paises.get("asd", 50)
+    esta = "Argenina" in poblacion_paises
 
 if __name__ == "__main__":
     run()
