@@ -1,10 +1,10 @@
 import random
 
-def busqueda_lineal(lista, objetivo):#
+def busqueda_lineal(lista, objetivo):
 
     match = False
 
-    for elemento in lista: #
+    for elemento in lista:
         
         if elemento == objetivo:
 
